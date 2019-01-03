@@ -1,9 +1,217 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		<title>项目实例</title>
+		
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/content.css" />
 	</head>
 	<body>
+		<div class="title">
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">个人首页</a>
+					</div>
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;后台页面</a></li>
+							<li><a href="userManage.html"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;用户管理</a></li>
+							<li class="active"><a href="content.html"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;内容管理</a></li>
+							<li><a href="tag.html"><span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;标签管理</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a href="###" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expended="false">admin <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="###"><span class="glyphicon glyphicon-screenshot"></span>&nbsp;&nbsp;前台首页</a></li>
+									<li><a href="###"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;个人主页</a></li>
+									<li><a href="###"><span class="glyphicon glyphicon-cog"></span>&nbsp;&nbsp;个人设置</a></li>
+									<li><a href="###"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;&nbsp;账号中心</a></li>
+									<li><a href="###"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;我的收藏</a></li>
+								</ul>
+							</li>
+							<li><a href="###"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;退出</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			
+			<!--内容管理-->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2">
+						<div class="list-group">
+							<a href="content.html" class="list-group-item active">内容管理</a>
+							<a href="content_add.html" class="list-group-item">添加内容</a>
+						</div>
+					</div>
+					<div class="col-md-10">
+						<div class="page-header">
+							<h1>内容管理</h1>
+						</div>
+						<ul class="nav nav-tabs">
+							<li role="presentation" class="active"><a href="content.html">内容管理</a></li>
+							<li role="presentation"><a href="content_add.html">内容添加</a></li>
+						</ul>
+						<table class="table">
+							<thead>
+								<tr>
+									<th>文章标题</th>
+									<th>作者</th>
+									<th>发布时间</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th>前端工程师该何去何从</th>
+									<td>张三</td>
+									<td>2017/02/01</td>
+									<td>
+										<div role="presentation" class="dropdown">
+											<button class="dropdown-toggle" data-toggle="dropdown" href="###" role="button" aria-haspopup="true" aria-expended="false">
+												操作&nbsp;<span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu">
+												<li><a href="###">编辑</a></li>
+												<li><a href="###">删除</a></li>
+												<li><a href="###">全局置顶</a></li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>产品经理经常犯的7大错误，你造吗？</th>
+									<td>张三</td>
+									<td>2017/02/01</td>
+									<td>
+										<div role="presentation" class="dropdown">
+											<button class="dropdown-toggle" data-toggle="dropdown" href="###" role="button" aria-haspopup="true" aria-expended="false">
+												操作&nbsp;<span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu">
+												<li><a href="###">编辑</a></li>
+												<li><a href="###">删除</a></li>
+												<li><a href="###">全局置顶</a></li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>前端工程师该何去何从</th>
+									<td>张三</td>
+									<td>2017/02/01</td>
+									<td>
+										<div role="presentation" class="dropdown">
+											<button class="dropdown-toggle" data-toggle="dropdown" href="###" role="button" aria-haspopup="true" aria-expended="false">
+												操作&nbsp;<span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu">
+												<li><a href="###">编辑</a></li>
+												<li><a href="###">删除</a></li>
+												<li><a href="###">全局置顶</a></li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>前端工程师该何去何从</th>
+									<td>张三</td>
+									<td>2017/02/01</td>
+									<td>
+										<div role="presentation" class="dropdown">
+											<button class="dropdown-toggle" data-toggle="dropdown" href="###" role="button" aria-haspopup="true" aria-expended="false">
+												操作&nbsp;<span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu">
+												<li><a href="###">编辑</a></li>
+												<li><a href="###">删除</a></li>
+												<li><a href="###">全局置顶</a></li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>前端工程师该何去何从</th>
+									<td>张三</td>
+									<td>2017/02/01</td>
+									<td>
+										<div role="presentation" class="dropdown">
+											<button class="dropdown-toggle" data-toggle="dropdown" href="###" role="button" aria-haspopup="true" aria-expended="false">
+												操作&nbsp;<span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu">
+												<li><a href="###">编辑</a></li>
+												<li><a href="###">删除</a></li>
+												<li><a href="###">全局置顶</a></li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>前端工程师该何去何从</th>
+									<td>张三</td>
+									<td>2017/02/01</td>
+									<td>
+										<div role="presentation" class="dropdown">
+											<button class="dropdown-toggle" data-toggle="dropdown" href="###" role="button" aria-haspopup="true" aria-expended="false">
+												操作&nbsp;<span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu">
+												<li><a href="###">编辑</a></li>
+												<li><a href="###">删除</a></li>
+												<li><a href="###">全局置顶</a></li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>前端工程师该何去何从</th>
+									<td>张三</td>
+									<td>2017/02/01</td>
+									<td>
+										<div role="presentation" class="dropdown">
+											<button class="dropdown-toggle" data-toggle="dropdown" href="###" role="button" aria-haspopup="true" aria-expended="false">
+												操作&nbsp;<span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu">
+												<li><a href="###">编辑</a></li>
+												<li><a href="###">删除</a></li>
+												<li><a href="###">全局置顶</a></li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			
+				<!--底部标识-->
+		<section id="foot">
+			<div class="container">
+		         <div class="row">
+		         	<div class="col-md-12">
+		         		<p>&copyright; 2012-2019 西安重大信息技术有限公司
+		         		   陕ICP备13023433号-4 Version 5.0.3 release20170323
+		         		</p>
+		         	</div>
+		         </div>
+			</div>
+		</section>
+		</div>
 	</body>
+	<script type="text/javascript" src="js/jquery.min.js" ></script>
+	<script type="text/javascript" src="js/bootstrap.min.js" ></script>
 </html>
