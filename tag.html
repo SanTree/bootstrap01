@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		<title>项目实例</title>
+		
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/tag.css" />
+	</head>
+	<body>
+		<!--导航栏-->
+		<div class="title">
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".narbar-colapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">个人首页</a>
+					</div>
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;个人主页</a></li>
+							<li><a href="userManage.html"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;用户管理</a></li>
+							<li><a href="content.html"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;内容管理</a></li>
+							<li class="active"><a href="tag.html"><span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;标签管理</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a href="###" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopub="true" aria-expanded="false">admin <span class="caret"></span></a>
+							    <ul class="dropdown-menu">
+							    	<li><a href="###"><span class="glyphicon glyphicon-screenshot"></span>&nbsp;&nbsp;前台首页</a></li>
+							    	<li><a href="###"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;个人主页</a></li>
+							    	<li><a href="###"><span class="glyphicon glyphicon-cog"></span>&nbsp;&nbsp;个人设置</a></li>
+							    	<li><a href="###"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;&nbsp;账户中心</a></li>
+								    <li><a href="###"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;我的收藏</a></li>
+							    </ul>
+							</li>
+							<li><a href="###"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;退出</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			
+			<!--标签管理-->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="page-header">
+							<h1>标签管理</h1>
+						</div>
+						<div class="col-md-10">
+							<form action="###">
+								<div class="form-group">
+									<input type="text" class="form-control" id="text" placeholder="请输入要添加的标签"/>
+								</div>
+							</form>
+						</div>
+						<div class="col-md-2">
+							<button type="submit" class="btn btn-default">添加</button>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="alert alert-warning alert-dismissible pull-left addname" role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<strong>bootstrop</strong>
+						</div>
+						<div class="alert alert-warning alert-dismissible pull-left addname" role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<strong>前端课程</strong>
+						</div>
+						<div class="alert alert-warning alert-dismissible pull-left addname" role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<strong>微信小程序</strong>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--底部标识-->
+		<section id="foot">
+			<div class="container">
+		         <div class="row">
+		         	<div class="col-md-12">
+		         		<p>&copyright; 2012-2019 西安重大信息技术有限公司
+		         		   陕ICP备13023433号-4 Version 5.0.3 release20170323
+		         		</p>
+		         	</div>
+		         </div>
+			</div>
+		</section>
+	</body>
+	<script type="text/javascript" src="js/jquery.min.js" ></script>
+	<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+</html>

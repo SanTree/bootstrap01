@@ -1,0 +1,13 @@
+body{
+	font-family: "'Microsoft YaHei',sans-serif";
+}
+
+/*底部*/
+#foot{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+#foot p{
+	margin-bottom: 10px;
+}

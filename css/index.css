@@ -1,0 +1,27 @@
+
+/*tag*/
+.page-header{
+	margin-top: 0;
+}
+.page-header h1{
+	font-size: 20px;
+	margin-top:0;
+}
+.addname{
+	margin-left: 20px;
+}
+
+
+
+.progress{
+	margin-bottom: 15px;
+}
+
+.w64{
+	height: 64px;
+	width: 64px;
+	border-radius: 50%;
+}
+.btn{
+	margin-top: 20px;
+}

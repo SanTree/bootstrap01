@@ -1,0 +1,23 @@
+
+/*用户管理*/
+.page-header{
+	margin: 0;
+}
+.page-header h1 {
+	margin: 0;
+	font-size: 20px;
+}
+.nav-tabs{
+	margin-top: 20px;
+}
+a.list-group-item.btn.btn-primary{
+	text-align: left;
+}
+
+/*用户搜索*/
+.user_search{
+	padding: 10px;;
+	border: 1px solid #DDDDDD;
+	border-top: none;
+}
+
